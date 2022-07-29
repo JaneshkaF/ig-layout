@@ -1,0 +1,39 @@
+.header{
+    text-align: center;
+}
+.body{
+    display:block;
+    text-align: center;
+    margin-left:38%;
+    margin-right:38%;
+}
+#container{
+    display:block;
+    flex-direction: column;
+    background-color: lavender;
+}
+#container2{
+    display:block;
+    flex-direction: column;
+    background-color: yellow;
+}
+img {
+    position:center;
+    width:100%;
+}
+.column {
+    float: left;
+    width: 50%;
+    margin:none;
+    text-align:left;
+    font-weight:bold;
+  }
+  .column2 {
+    float:right;
+    width:50%;
+    font-size: small;
+    text-align: right;
+    color: gray;
+    font-size: 12px;
+  }
+  
