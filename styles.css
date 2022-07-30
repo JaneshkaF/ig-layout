@@ -27,6 +27,9 @@ img {
     margin:none;
     text-align:left;
     font-weight:bold;
+    padding-left:3%;
+    padding-top:4%;
+    padding-bottom: 4%;
   }
   .column2 {
     float:right;
@@ -35,5 +38,14 @@ img {
     text-align: right;
     color: gray;
     font-size: 12px;
+    padding-right:3%;
+    padding-bottom:4%;
+    padding-top:4%;
   }
-  
+  div {
+    padding-left:none;
+    padding-right:none;
+    box-sizing:border-box;
+  }
+ 
+ 
