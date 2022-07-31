@@ -1,21 +1,27 @@
-.header{
+.header {
+    display: center;
     text-align: center;
+    background-color: white;
+    margin-top: none;
+    font-size: large;
 }
-.body{
+.box{
     display:block;
     text-align: center;
     margin-left:38%;
     margin-right:38%;
 }
+.box2{
+    display:center;
+    margin:none;
+    padding-bottom: 2%;
+    text-align: left;
+    padding-left: 3%;
+}
 #container{
     display:block;
     flex-direction: column;
-    background-color: lavender;
-}
-#container2{
-    display:block;
-    flex-direction: column;
-    background-color: yellow;
+    background-color: white;
 }
 img {
     position:center;
@@ -34,18 +40,24 @@ img {
   .column2 {
     float:right;
     width:50%;
-    font-size: small;
+    font-size: xx-small;
     text-align: right;
     color: gray;
-    font-size: 12px;
+    font-size: 10px;
     padding-right:3%;
     padding-bottom:4%;
     padding-top:4%;
   }
+ p{
+    display:fixed;
+ }
   div {
     padding-left:none;
     padding-right:none;
     box-sizing:border-box;
   }
- 
- 
+ body{
+    background-color: gainsboro;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+ }
